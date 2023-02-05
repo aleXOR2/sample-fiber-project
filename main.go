@@ -17,6 +17,7 @@ func validateParamsV2() {
 
 func addToDatabase() {
 	log.Print("writing to database")
+	// see https://github.com/polinasok/go-cloud
 }
 
 func v1(c *fiber.Ctx) {
